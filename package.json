@@ -4,6 +4,11 @@
   "private": true,
   "scripts": {
     "build": "echo 'Static site, no build needed'",
-    "dev": "npx wrangler pages dev public"
+    "dev": "npx wrangler pages dev public",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.76.0"
   }
 }
