@@ -1,0 +1,11 @@
+// /home/user/quark-direct-link/package.json
+{
+  "name": "quark-direct-link",
+  "version": "1.0.0",
+  "description": "夸克网盘直链解析 - Cloudflare Pages",
+  "private": true,
+  "scripts": {
+    "dev": "npx wrangler pages dev public --compatibility-date=2024-01-01",
+    "deploy": "npx wrangler pages deploy public"
+  }
+}
